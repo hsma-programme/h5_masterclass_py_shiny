@@ -18,6 +18,19 @@
 
 Following a short introductory presentation ('MC - Shiny for Python Slides.pdf') we'll get straight into a guided code along before you'll work within your PSGs to complete an exercise.
 
+### Local Environment
+
+The `environment.yml` file can be found within the `environment_file` folder. To install, please follow the steps below...
+
+In the terminal/ command prompt, navigate to the folder containing the yml file and use the command:
+```conda env create -f environment.yml```
+
+To activate once installed use the command:
+```conda activate hsma5_pyshiny```
+
+When finished you can go back to the base environment using the command:
+```conda deactivate hsma5_pyshiny```
+
 ### Web Environment
 
 Nearly everything we do today can be completed on an interactive web environment online, [HERE](https://shinylive.io/py/examples/)
